@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.809.9
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NEST.Linq", "src\NEST.Linq\NEST.Linq.csproj", "{D84796B6-3165-4008-B491-A770C053F91B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{35B883BD-D732-486B-A869-AE05E02E69CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NEST.Linq.Tests", "tests\NEST.Linq.Tests\NEST.Linq.Tests.csproj", "{695368F7-4138-4F1B-9E1B-22A1F5467E09}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,11 +19,18 @@ Global
 		{D84796B6-3165-4008-B491-A770C053F91B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D84796B6-3165-4008-B491-A770C053F91B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D84796B6-3165-4008-B491-A770C053F91B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{695368F7-4138-4F1B-9E1B-22A1F5467E09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{695368F7-4138-4F1B-9E1B-22A1F5467E09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{695368F7-4138-4F1B-9E1B-22A1F5467E09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{695368F7-4138-4F1B-9E1B-22A1F5467E09}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1E8BDB51-CF5D-42E5-AB9E-373E6EC67581}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{695368F7-4138-4F1B-9E1B-22A1F5467E09} = {35B883BD-D732-486B-A869-AE05E02E69CD}
 	EndGlobalSection
 EndGlobal

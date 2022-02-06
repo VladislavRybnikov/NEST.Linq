@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq.Expressions;
-using Nest;
 
 namespace Nest.Linq.Internals.Builders
 {
