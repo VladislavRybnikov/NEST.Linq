@@ -12,7 +12,7 @@ client // Nest.IElasticClient instance
     .Search();
 ```
 
-This code will be converted to next query using NEST fluent syntax
+This code will be converted to next query using NEST fluent syntax:
 
 ```csharp
 client.Search<User>(s => s
